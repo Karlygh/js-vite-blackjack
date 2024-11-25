@@ -1,6 +1,5 @@
-export default {
-    build: {
-      assetsDir: 'assets',
-    },
-  }
-  
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  base: 'js-vite-blackjack/',
+})
